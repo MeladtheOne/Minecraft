@@ -1,0 +1,13 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "description": {
+            "identifier": "melad:directional_launcher",
+            "category": "Items"
+        },
+        "components": {
+            "minecraft:icon": "dir_launcher",
+            "minecraft:render_offsets": "tools"
+        }
+    }
+}

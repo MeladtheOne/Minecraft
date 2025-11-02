@@ -1,0 +1,23 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "melad:haste_beacon"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "tag": "melad:beacon"
+            },
+            {
+                "item": "melad:haste_upgrade"
+            }
+        ],
+        "result": {
+            "item": "melad:haste_beacon",
+            "count": 1
+        }
+    }
+}

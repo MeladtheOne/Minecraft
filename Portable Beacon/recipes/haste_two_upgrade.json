@@ -1,0 +1,27 @@
+{
+    "format_version": "1.19.50",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "melad:haste_two_upgrade"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "###",
+            "#d#",
+            "###"
+        ],
+        "key": {
+            "#": {
+                "item": "melad:haste_upgrade"
+            },
+            "d": {
+                "item": "minecraft:diamond_block"
+            }
+        },
+        "result": {
+            "item": "melad:haste_two_upgrade"
+        }
+    }
+}

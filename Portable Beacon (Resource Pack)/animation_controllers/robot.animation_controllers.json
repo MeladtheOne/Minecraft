@@ -1,0 +1,42 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.robot.moving": {
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                            "start": "query.is_moving"
+                        }
+                    ]
+                },
+                "start": {
+                    "animations": ["startmov"], 
+                    "transitions": [
+                        {
+                            "moving": "query.any_animation_finished"
+                        }
+                    ]
+                },
+                "moving": {
+                    "animations": [
+                        "move"
+                    ],
+                    "transitions": [
+                        {
+                            "end": "!query.is_moving"
+                        }
+                    ]
+                },
+                "end": {
+                    "animations": ["endmov"],
+                    "transitions": [
+                        {
+                            "default": "query.all_animations_finished"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

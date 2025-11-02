@@ -1,0 +1,33 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.rapier.third_person": {
+			"loop": true,
+			"bones": {
+				"sword": {
+					"rotation": [75, 0, 0],
+					"position": [0, 22, -4],
+					"scale": 0.7
+				},
+				"rapier": {
+					"rotation": [-102.5, 0, 0],
+					"position": [0, 0, -4],
+					"scale": 0.7
+				}
+			}
+		},
+		"animation.rapier.first_person": {
+			"loop": true,
+			"bones": {
+				"sword": {
+					"rotation": [-29.78729, -3.74196, -6.50446],
+					"position": [-5, -1, 4]
+				},
+				"rapier": {
+					"rotation": [-25, 0, 0],
+					"position": [0, -2, 6]
+				}
+			}
+		}
+	}
+}

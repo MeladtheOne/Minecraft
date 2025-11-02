@@ -1,0 +1,14 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_brewing_mix": {
+        "description": {
+            "identifier": "melad:brew_poison_from_snake"
+        },
+        "tags": [
+            "brewing_stand"
+        ],
+        "input": "minecraft:potion_type:awkward",
+        "reagent": "melad:snake_tooth",
+        "output": "minecraft:potion_type:poison"
+    }
+}

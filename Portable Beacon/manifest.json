@@ -1,0 +1,37 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "W Melad Addon Real for survival and pvp usage",
+    "name": "Portable Beacons",
+    "uuid":"e06ddcd5-7ccd-4876-a272-6389bdd0dde2",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 0]
+  },
+  "modules":
+    [
+      {
+        "description": "My First Add-On!",
+          "type": "data",
+          "uuid": "a58f2680-93a6-4238-90bf-7fa7eaf41ec8",
+          "version": [1, 0, 0]
+      },
+      {
+        "description": "Gametest Module",
+        "type": "script",
+        "language": "javascript",
+        "entry": "scripts/index.js",
+        "uuid": "18da8cfb-aaf0-4ff0-9a15-580ece0d9f29",
+        "version": [
+          1,
+          0,
+          0
+        ]
+      }
+    ],
+  "dependencies": [
+    {
+     "uuid":"ef85506a-d292-4a27-8e1e-320d8c36964a",
+      "version":[1,0,0]
+    }
+ ]
+}

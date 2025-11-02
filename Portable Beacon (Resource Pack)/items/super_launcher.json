@@ -1,0 +1,13 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "description": {
+            "identifier": "melad:super_launcher",
+            "category": "Items"
+        },
+        "components": {
+            "minecraft:icon": "super_launcher",
+            "minecraft:render_offsets": "tools"
+        }
+    }
+}

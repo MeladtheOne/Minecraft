@@ -1,0 +1,14 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "description": {
+            "identifier": "melad:speed_upgrade",
+            "category": "Items"
+        },
+        "components": {
+            "minecraft:icon": "speed_upgrade",
+            "minecraft:render_offsets": "tools",
+            "minecraft:hover_text_color": "light_purple"
+        }
+    }
+}

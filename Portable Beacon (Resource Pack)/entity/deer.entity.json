@@ -1,0 +1,36 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "melad:deer",
+            "materials": {
+                "default": "entity"
+            },
+            "textures": {
+                "default": "textures/entity/deer"
+            },
+            "geometry": {
+                "default": "geometry.deer"
+            },
+            "render_controllers": [
+                "controller.render.default"
+            ],
+            "spawn_egg": {
+                "base_color": "#472828",
+                "overlay_color": "#c52b00"
+            },
+            "animations": {
+                "idle": "animation.deer.idle",
+                "everything": "controller.animation.deer.everything",
+                "walk": "animation.deer.walk",
+                "walk_attack": "animation.deer.walk_attack",
+                "attack": "animation.deer.attack"
+            },
+            "scripts": {
+                "animate": [
+                    "everything"
+                ]
+            }
+        }
+    }
+}

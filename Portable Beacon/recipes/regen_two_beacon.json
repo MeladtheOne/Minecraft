@@ -1,0 +1,23 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "melad:regen_two_beacon"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "tag": "melad:beacon"
+            },
+            {
+                "item": "melad:regen_two_upgrade"
+            }
+        ],
+        "result": {
+            "item": "melad:regen_two_beacon",
+            "count": 1
+        }
+    }
+}

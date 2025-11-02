@@ -1,0 +1,14 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "description": {
+            "identifier": "melad:netherite_star",
+            "category": "Items"
+        },
+        "components": {
+            "minecraft:icon": "netherite_star",
+            "minecraft:render_offsets": "tools",
+            "minecraft:hover_text_color": "light_purple"
+        }
+    }
+}

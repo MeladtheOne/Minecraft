@@ -1,0 +1,38 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.snake.moving": {
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                            "move": "query.is_moving"
+                        },
+                        {
+                            "swimming": "query.is_swimming"
+                        }
+                    ]
+                },
+                "move": {
+                    "animations": ["slither"],
+                    "transitions":[
+                        {"default": "query.all_animations_finished && !query.is_moving"},
+                        {"swimming": "query.is_swimming"}
+                    ]
+
+                },
+                "swimming": {
+                    "animations": ["slither"],
+                    "transitions":[
+                        {
+                            "default": "query.all_animations_finished && !query.is_moving"
+                        },
+                        {
+                            "move": "query.is_moving"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

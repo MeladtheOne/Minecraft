@@ -1,0 +1,18 @@
+{
+ "format_version": 2,
+ "header": {
+   "description": "Turns your world into a snowy landscape!",
+   "name": "Winter Wonderland",
+   "uuid":"00a9fd17-4282-455d-9da3-ac31b03f3ef1",
+   "version": [1, 0, 0],
+   "min_engine_version": [1, 16, 0]
+  },
+ "modules": [
+   {
+     "description": "Turns your world into a snowy landscape!",
+     "type": "resources",
+     "uuid": "7c2aaf48-7e2c-4403-af57-336345383d9d",
+     "version": [1, 0, 0]
+   }
+ ]
+}

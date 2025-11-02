@@ -1,0 +1,17 @@
+{
+    "format_version": "1.10.0",
+    "animations": {
+"animation.player.speed": {"timeline": {"0.0": ["/effect @s speed 12 0"] }, "animation_length": 1, "loop": true },
+"animation.player.speed_two": {"timeline": {"0.0": ["/effect @s speed 12 1"] }, "animation_length": 1, "loop": true },
+"animation.player.strength": {"timeline": {"0.0": ["/effect @s strength 12 0"] }, "animation_length": 1, "loop": true },
+"animation.player.strength_two": {"timeline": {"0.0": ["/effect @s strength 12 1"] }, "animation_length": 1, "loop": true },
+"animation.player.regeneration": {"timeline": {"0.0": ["/effect @s regeneration 12 0"] }, "animation_length": 1, "loop": true },
+"animation.player.regeneration_two": {"timeline": {"0.0": ["/effect @s regeneration 12 1"] }, "animation_length": 1, "loop": true },
+"animation.player.jump_boost": {"timeline": {"0.0": ["/effect @s jump_boost 12 0"] }, "animation_length": 1, "loop": true },
+"animation.player.jump_boost_two": {"timeline": {"0.0": ["/effect @s jump_boost 12 1"] }, "animation_length": 1, "loop": true },
+"animation.player.haste": {"timeline": {"0.0": ["/effect @s haste 12 0"] }, "animation_length": 1, "loop": true },
+"animation.player.haste_two": {"timeline": {"0.0": ["/effect @s haste 12 1"] }, "animation_length": 1, "loop": true },
+"animation.player.resistance": {"timeline": {"0.0": ["/effect @s resistance 12 0"] }, "animation_length": 1, "loop": true },
+"animation.player.resistance_two": {"timeline": {"0.0": ["/effect @s resistance 12 1"] }, "animation_length": 1, "loop": true }
+    }
+}

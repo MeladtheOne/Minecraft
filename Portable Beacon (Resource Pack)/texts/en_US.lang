@@ -1,0 +1,33 @@
+entity.sample:robot.name=Robot
+item.spawn_egg.entity.sample:robot.name=Spawn Robot
+
+entity.melad:snake.name=Snake
+item.spawn_egg.entity.melad:snake.name=Spawn Snake
+
+item.spawn_egg.entity.melad:deer.name=Spawn Reindeer
+entity.melad:deer.name=Deer
+
+item.melad:reactor_shard.name=Reactor Shard
+tile.melad:reactor.name=Reactor
+
+item.melad:strength_upgrade.name=Strength Upgrade
+item.melad:regen_upgrade.name=Regen Upgrade
+item.melad:jump_boost_upgrade.name=Jump Boost Upgrade
+item.melad:speed_upgrade.name=Speed Upgrade
+item.melad:resist_upgrade.name=Resistance Upgrade
+item.melad:haste_upgrade.name=Haste Upgrade
+
+item.melad:strength_two_upgrade.name=Strength Upgrade II
+item.melad:regen_two_upgrade.name=Regen Upgrade II
+item.melad:jump_boost_two_upgrade.name=Jump Boost Upgrade II
+item.melad:speed_two_upgrade.name=Speed Upgrade II
+item.melad:resist_two_upgrade.name=Resistance Upgrade II
+item.melad:haste_two_upgrade.name=Haste Upgrade II
+
+item.melad:netherite_star.name=Netherite Star
+
+item.melad:portable_beacon.name=Portable Beacon
+
+item.melad:snake_tooth.name=Snake Tooth
+item.melad:launcher.name=Launcher
+item.melad:super_launcher.name=Super Launcher

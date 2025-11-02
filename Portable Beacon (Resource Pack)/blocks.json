@@ -1,0 +1,14 @@
+{
+    "format_version": "1.19.50",
+    "melad:reactor": {
+        "textures": {
+            "up": "reactor_top",
+            "down": "reactor_top",
+            "east": "reactor_side",
+            "west": "reactor_side",
+            "north": "reactor_side",
+            "south": "reactor_side"
+        },
+        "sound": "beacon"
+    }
+}

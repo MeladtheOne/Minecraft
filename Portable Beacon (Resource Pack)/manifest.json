@@ -1,0 +1,18 @@
+{
+ "format_version": 2,
+ "header": {
+   "description": "First Add-On Test",
+   "name": "ScriptTest",
+   "uuid":"ef85506a-d292-4a27-8e1e-320d8c36964a",
+   "version": [1, 0, 0],
+   "min_engine_version": [1, 16, 0]
+  },
+ "modules": [
+   {
+     "description": "ScriptTest",
+     "type": "resources",
+     "uuid": "10cea7e0-6157-4c8f-8562-2d071f3bb847",
+     "version": [1, 0, 0]
+   }
+ ]
+}

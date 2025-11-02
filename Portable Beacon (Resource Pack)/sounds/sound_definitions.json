@@ -1,0 +1,13 @@
+{
+    "format_version": "1.19.20",
+    "sound_definitions": {
+        "sound.melad.launch": {
+            "sounds": [
+                {
+                    "name": "sounds/tp",
+                    "volume": 2.0
+                }
+            ]
+        }
+    }
+}

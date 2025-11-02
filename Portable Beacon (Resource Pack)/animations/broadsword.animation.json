@@ -1,0 +1,25 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.broadsword.third_person": {
+			"loop": true,
+			"bones": {
+				"broadsword": {
+					"rotation": [90, -17.5, -90],
+					"position": [0, 22, 0],
+					"scale": [2, 2, 1.5]
+				}
+			}
+		},
+		"animation.broadsword.first_person": {
+			"loop": true,
+			"bones": {
+				"broadsword": {
+					"rotation": [30.77947, 8.29158, 201.91409],
+					"position": [1, 21, 13],
+					"scale": 2.5
+				}
+			}
+		}
+	}
+}

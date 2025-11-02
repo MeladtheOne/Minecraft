@@ -1,0 +1,116 @@
+{
+    "format_version": "1.12.0",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "melad:snake",
+            "is_spawnable": true,
+            "is_summonable": true,
+            "animations": {
+
+            },
+            "scripts": {
+                "animate": []
+            }
+        },
+        "components": {
+            "minecraft:nameable": {},
+            "minecraft:movement": {
+                "value": 0.25
+            },
+            "minecraft:collision_box": {
+                "width": 0.2,
+                "height": 0.2
+            },
+            "minecraft:movement.basic": {},
+            "minecraft:jump.static": {},
+            "minecraft:navigation.walk": {
+                "avoid_water": true
+            },
+            "minecraft:behavior.tempt": {
+                "priority": 1,
+                "speed_multiplier": 2.0,
+                "items": [
+                    "rotten_flesh"
+                ],
+                "within_radius": 21.0
+            },
+            "minecraft:behavior.random_stroll": {
+                "priority": 3,
+                "speed_multiplier": 0.8
+            },
+            "minecraft:experience_reward": {
+                "on_death": "Math.Random(5,10)"
+            },
+            "minecraft:loot": {
+                "table": "loot_tables/entities/snake.json"
+            },
+            "minecraft:behavior.look_at_player": {
+                "priority": 7,
+                "look_distance": 6,
+                "probability": 0.02
+            },
+            "minecraft:behavior.random_look_around": {
+                "priority": 9
+            },
+            "minecraft:behavior.nearest_attackable_target": {
+                "priority": 2,
+                "must_see": false,
+                "reselect_targets": true,
+                "within_radius": 25.0,
+                "entity_types": [
+                    {
+                        "filters": {
+                            "any_of": [
+                                {
+                                    "test": "is_family",
+                                    "subject": "other",
+                                    "value": "player"
+                                },
+                                {
+                                    "test": "is_family",
+                                    "subject": "other",
+                                    "value": "rabbit"
+                                },
+                                {
+                                    "test": "is_family",
+                                    "subject": "other",
+                                    "value": "sheep"
+                                },
+                                {
+                                    "test": "is_family",
+                                    "subject": "other",
+                                    "value": "frog"
+                                },
+                                {
+                                    "test": "is_family",
+                                    "subject": "other",
+                                    "value": "fox"
+                                },
+                                {
+                                    "test": "is_family",
+                                    "subject": "other",
+                                    "value": "chicken"
+                                }
+                            ]
+                        },
+                        "max_dist": 32
+                    }
+                ]
+            },
+            "minecraft:behavior.melee_attack": {
+                "priority": 3
+                
+            },
+            "minecraft:attack": {
+                "damage": 5,
+                "speed_multiplier": 1.8,
+                "effect_name": "poison",
+                "effect_duration": 7
+            },
+            "minecraft:physics": {},
+            "minecraft:despawn": {
+                "despawn_from_distance": {}
+            }
+        }
+    }
+}

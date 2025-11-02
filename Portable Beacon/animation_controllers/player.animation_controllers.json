@@ -1,0 +1,187 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.robot.portable_beacon_effects": {
+            "states": {
+                "default": {
+                    "transitions": [
+                        {
+                            "speed_controller": "query.equipped_item_any_tag('slot.weapon.offhand','melad:speed') || query.equipped_item_any_tag('slot.weapon.mainhand','melad:speed')"
+                        },
+                        {
+                            "speed_two_controller": "query.equipped_item_any_tag('slot.weapon.offhand','melad:speed_two')  || query.equipped_item_any_tag('slot.weapon.mainhand','melad:speed_two')"
+                        },
+                        {
+                            "strength_controller": "query.equipped_item_any_tag('slot.weapon.offhand','melad:strength') || query.equipped_item_any_tag('slot.weapon.mainhand','melad:strength')"
+                        },
+                        {
+                            "strength_two_controller": "query.equipped_item_any_tag('slot.weapon.offhand','melad:strength_two')  || query.equipped_item_any_tag('slot.weapon.mainhand','melad:strength_two')"
+                        },
+                        {
+                            "regeneration_controller": "query.equipped_item_any_tag('slot.weapon.offhand','melad:regeneration') || query.equipped_item_any_tag('slot.weapon.mainhand','melad:regeneration')"
+                        },
+                        {
+                            "regeneration_two_controller": "query.equipped_item_any_tag('slot.weapon.offhand','melad:regeneration_two')  || query.equipped_item_any_tag('slot.weapon.mainhand','melad:regeneration_two')"
+                        },
+                        {
+                            "jump_boost_controller": "query.equipped_item_any_tag('slot.weapon.offhand','melad:jump_boost') || query.equipped_item_any_tag('slot.weapon.mainhand','melad:jump_boost')"
+                        },
+                        {
+                            "jump_boost_two_controller": "query.equipped_item_any_tag('slot.weapon.offhand','melad:jump_boost_two')  || query.equipped_item_any_tag('slot.weapon.mainhand','melad:jump_boost_two')"
+                        },
+                        {
+                            "haste_controller": "query.equipped_item_any_tag('slot.weapon.offhand','melad:haste') || query.equipped_item_any_tag('slot.weapon.mainhand','melad:haste')"
+                        },
+                        {
+                            "haste_two_controller": "query.equipped_item_any_tag('slot.weapon.offhand','melad:haste_two')  || query.equipped_item_any_tag('slot.weapon.mainhand','melad:haste_two')"
+                        },
+                        {
+                            "resistance_controller": "query.equipped_item_any_tag('slot.weapon.offhand','melad:resistance') || query.equipped_item_any_tag('slot.weapon.mainhand','melad:resistance')"
+                        },
+                        {
+                            "resistance_two_controller": "query.equipped_item_any_tag('slot.weapon.offhand','melad:resistance_two')  || query.equipped_item_any_tag('slot.weapon.mainhand','melad:resistance_two')"
+                        },
+                        {
+                            "super_beacon": "query.is_item_name_any('slot.weapon.offhand','melad:super_beacon') || query.is_item_name_any('slot.weapon.mainhand','melad:super_beacon')"
+                        }
+                    ]
+                },
+                "speed_controller": {
+                    "animations": [
+                        "speed"
+                    ],
+                    "transitions": [
+                        {
+                            "default": "!query.equipped_item_any_tag('slot.weapon.offhand','melad:speed') && !query.equipped_item_any_tag('slot.weapon.mainhand','melad:speed')"
+                        }
+                    ]
+                },
+                "speed_two_controller": {
+                    "animations": [
+                        "speed_two"
+                    ],
+                    "transitions": [
+                        {
+                            "default": "!query.equipped_item_any_tag('slot.weapon.offhand','melad:speed_two') && !query.equipped_item_any_tag('slot.weapon.mainhand','melad:speed_two')"
+                        }
+                    ]
+                },
+                "strength_controller": {
+                    "animations": [
+                        "strength"
+                    ],
+                    "transitions": [
+                        {
+                            "default": "!query.equipped_item_any_tag('slot.weapon.offhand','melad:strength') && !query.equipped_item_any_tag('slot.weapon.mainhand','melad:strength')"
+                        }
+                    ]
+                },
+                "strength_two_controller": {
+                    "animations": [
+                        "strength_two"
+                    ],
+                    "transitions": [
+                        {
+                            "default": "!query.equipped_item_any_tag('slot.weapon.offhand','melad:strength_two') && !query.equipped_item_any_tag('slot.weapon.mainhand','melad:strength_two')"
+                        }
+                    ]
+                },
+                "regeneration_controller": {
+                    "animations": [
+                        "regeneration"
+                    ],
+                    "transitions": [
+                        {
+                            "default": "!query.equipped_item_any_tag('slot.weapon.offhand','melad:regeneration') && !query.equipped_item_any_tag('slot.weapon.mainhand','melad:regeneration')"
+                        }
+                    ]
+                },
+                "regeneration_two_controller": {
+                    "animations": [
+                        "regeneration_two"
+                    ],
+                    "transitions": [
+                        {
+                            "default": "!query.equipped_item_any_tag('slot.weapon.offhand','melad:regeneration_two') && !query.equipped_item_any_tag('slot.weapon.mainhand','melad:regeneration_two')"
+                        }
+                    ]
+                },
+                "jump_boost_controller": {
+                    "animations": [
+                        "jump_boost"
+                    ],
+                    "transitions": [
+                        {
+                            "default": "!query.equipped_item_any_tag('slot.weapon.offhand','melad:jump_boost') && !query.equipped_item_any_tag('slot.weapon.mainhand','melad:jump_boost')"
+                        }
+                    ]
+                },
+                "jump_boost_two_controller": {
+                    "animations": [
+                        "jump_boost_two"
+                    ],
+                    "transitions": [
+                        {
+                            "default": "!query.equipped_item_any_tag('slot.weapon.offhand','melad:jump_boost_two') && !query.equipped_item_any_tag('slot.weapon.mainhand','melad:jump_boost_two')"
+                        }
+                    ]
+                },
+                "haste_controller": {
+                    "animations": [
+                        "haste"
+                    ],
+                    "transitions": [
+                        {
+                            "default": "!query.equipped_item_any_tag('slot.weapon.offhand','melad:haste') && !query.equipped_item_any_tag('slot.weapon.mainhand','melad:haste')"
+                        }
+                    ]
+                },
+                "haste_two_controller": {
+                    "animations": [
+                        "haste_two"
+                    ],
+                    "transitions": [
+                        {
+                            "default": "!query.equipped_item_any_tag('slot.weapon.offhand','melad:haste_two') && !query.equipped_item_any_tag('slot.weapon.mainhand','melad:haste_two')"
+                        }
+                    ]
+                },
+                "resistance_controller": {
+                    "animations": [
+                        "resistance"
+                    ],
+                    "transitions": [
+                        {
+                            "default": "!query.equipped_item_any_tag('slot.weapon.offhand','melad:resistance') && !query.equipped_item_any_tag('slot.weapon.mainhand','melad:resistance')"
+                        }
+                    ]
+                },
+                "resistance_two_controller": {
+                    "animations": [
+                        "resistance_two"
+                    ],
+                    "transitions": [
+                        {
+                            "default": "!query.equipped_item_any_tag('slot.weapon.offhand','melad:resistance_two') && !query.equipped_item_any_tag('slot.weapon.mainhand','melad:resistance_two')"
+                        }
+                    ]
+                },
+                "super_beacon": {
+                    "animations": [
+                        "resistance_two",
+                        "regeneration_two",
+                        "strength_two",
+                        "speed_two",
+                        "jump_boost_two",
+                        "haste_two"
+                    ],
+                    "transitions": [
+                        {
+                            "default": "!query.is_item_name_any('slot.weapon.offhand','melad:super_beacon') && !query.is_item_name_any('slot.weapon.mainhand','melad:super_beacon')"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

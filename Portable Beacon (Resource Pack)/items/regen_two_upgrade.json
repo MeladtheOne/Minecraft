@@ -1,0 +1,14 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "description": {
+            "identifier": "melad:regen_two_upgrade",
+            "category": "Items"
+        },
+        "components": {
+            "minecraft:icon": "regeneration_two_upgrade",
+            "minecraft:render_offsets": "tools",
+            "minecraft:hover_text_color": "light_purple"
+        }
+    }
+}

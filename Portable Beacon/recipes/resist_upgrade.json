@@ -1,0 +1,27 @@
+{
+    "format_version": "1.19.50",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "melad:resist_upgrade"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "###",
+            "#d#",
+            "###"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:iron_ingot"
+            },
+            "d": {
+                "item": "minecraft:diamond"
+            }
+        },
+        "result": {
+            "item": "melad:resist_upgrade"
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "melad:snake",
+            "materials": {
+                "default": "entity"
+            },
+            "textures": {
+                "default": "textures/entity/snake"
+            },
+            "geometry": {
+                "default": "geometry.snake"
+            },
+            "render_controllers": [
+                "controller.render.default"
+            ],
+            "spawn_egg": {
+                "base_color": "#000000",
+                "overlay_color": "#33ff00"
+            },
+            "animations": {
+                "slither": "animation.snake.slither",
+                "moving": "controller.animation.snake.moving"
+            },
+            "scripts": {
+                "animate": [
+                    "moving"
+                ]
+            }
+        }
+    }
+}

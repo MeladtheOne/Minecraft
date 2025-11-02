@@ -1,0 +1,42 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "melad:robot",
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "default": "textures/entity/robot"
+            },
+            "geometry": {
+                "default": "geometry.robot"
+            },
+            "render_controllers": [
+                "controller.render.default"
+            ],
+            "spawn_egg": {
+                "base_color": "#0080ff",
+                "overlay_color": "#bbbbbb"
+            },
+            "animations": {
+                "drive": "animation.robot.drive",
+                "move": "animation.robot.move",
+                "moving": "controller.animation.robot.moving",
+                "look_at_target": "animation.common.look_at_target",
+                "startmov": "animation.robot.startmov",
+                "endmov": "animation.robot.endmov",
+                "heart": "animation.robot.heart"
+            },
+            "scripts": {
+                "animate": [
+                    "look_at_target",
+                    "moving",
+                    "drive",
+                    "heart"
+                ]
+            }
+
+        }
+    }
+}

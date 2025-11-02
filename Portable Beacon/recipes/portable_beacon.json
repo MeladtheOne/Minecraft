@@ -1,0 +1,30 @@
+{
+    "format_version": "1.19.20",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "melad:portable_beacon"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "*#*",
+            "#S#",
+            "*#*"
+        ],
+        "key": {
+            "#": {
+                "item": "minecraft:diamond_block"
+            },
+            "S": {
+                "item": "melad:netherite_star"
+            },
+            "*": {
+                "item": "melad:reactor"
+            }
+        },
+        "result": {
+            "item": "melad:portable_beacon"
+        }
+    }
+}

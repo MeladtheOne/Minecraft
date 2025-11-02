@@ -1,0 +1,13 @@
+{
+    "format_version": "1.10",
+    "minecraft:item": {
+        "description": {
+            "identifier": "melad:snake_tooth",
+            "category": "Items"
+        },
+        "components": {
+            "minecraft:icon": "snake_tooth",
+            "minecraft:render_offsets": "tools"
+        }
+    }
+}

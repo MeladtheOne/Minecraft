@@ -1,0 +1,36 @@
+{
+    "format_version": "1.19.50",
+    "minecraft:attachable": {
+        "description": {
+            "identifier": "minecraft:diamond_sword",
+            "materials": {
+                "default": "entity_alphatest",
+                "enchanted": "entity_alphatest_glint"
+            },
+            "textures": {
+                "default": "textures/items/diamond_saber",
+                "enchanted": "textures/misc/enchanted_item_glint"
+            },
+            "geometry": {
+                "default": "geometry.saber"
+            },
+            "animations": {
+                "hold_first_person": "animation.saber.first_person",
+                "hold_third_person": "animation.saber.third_person"
+            },
+            "scripts": {
+                "animate": [
+                    {
+                        "hold_first_person": "context.is_first_person == 1.0"
+                    },
+                    {
+                        "hold_third_person": "context.is_first_person == 0.0"
+                    }
+                ]
+            },
+            "render_controllers": [
+                "controller.render.item_default"
+            ]
+        }
+    }
+}

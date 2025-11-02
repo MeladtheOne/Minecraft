@@ -1,0 +1,23 @@
+{
+    "format_version": "1.19.20",
+    "minecraft:item": {
+        "description": {
+            "identifier": "melad:regen_beacon",
+            "category": "items"
+        },
+        "components": {"minecraft:max_stack_size": 1,
+            "minecraft:icon": {
+                "texture": "regen_beacon"
+            },
+            "minecraft:hand_equipped": true,
+            "minecraft:display_name": {
+                "value": "Portable Beacon (Regeneration)"
+            },
+            "minecraft:render_offsets": "apple",
+            "minecraft:hover_text_color": "light_purple",
+            "tag:melad:regeneration": {},"tag:melad:beacon": {},
+            "minecraft:allow_off_hand": true
+        },
+        "events": {}
+    }
+}

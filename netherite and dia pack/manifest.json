@@ -1,0 +1,18 @@
+{
+ "format_version": 2,
+ "header": {
+   "description": "Changes diamond and netherite armor and swords",
+   "name": "Refurbished Endgame",
+   "uuid":"3aaff72d-3ffb-4a41-9071-8557fa0b5995",
+   "version": [1, 0, 0],
+   "min_engine_version": [1, 16, 0]
+  },
+ "modules": [
+   {
+     "description": "Changes diamond and netherite armor and swords",
+     "type": "resources",
+     "uuid": "457fabd9-fd54-43f2-9e1f-345f1fa0ba70",
+     "version": [1, 0, 0]
+   }
+ ]
+}

@@ -1,0 +1,22 @@
+{
+    "format_version": "1.19.20",
+    "minecraft:item": {
+        "description": {
+            "identifier": "melad:super_beacon",
+            "category": "items"
+        },
+        "components": {"minecraft:max_stack_size": 1,
+            "minecraft:icon": {
+                "texture": "super_beacon"
+            },
+            "minecraft:hand_equipped": true,
+            "minecraft:display_name": {
+                "value": "Super Beacon"
+            },
+            "minecraft:render_offsets": "apple",
+            "minecraft:hover_text_color": "gold",
+            "minecraft:allow_off_hand": true
+        },
+        "events": {}
+    }
+}

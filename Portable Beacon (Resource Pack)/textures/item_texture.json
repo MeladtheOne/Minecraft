@@ -1,0 +1,75 @@
+{
+    "resource_pack_name": "ScriptTest",
+    "texture_name": "atlas.items",
+    "texture_data": {
+        "reactor_shard": {
+            "textures": "textures/items/reactor_shard"
+        },
+        "netherite_star": {
+            "textures": "textures/items/netherite_star"
+        },
+        "portable_beacon": {
+            "textures": "textures/items/portable_beacon"
+        },
+        "null": {
+            "textures": "textures/null"
+        },
+        "super_beacon": {
+            "textures": "textures/items/super_beacon"
+        },
+        "snake_tooth": {
+            "textures": "textures/items/snake_tooth"
+        },
+        "speed_upgrade": {"textures":"textures/items/beacons/upgrades/speed_upgrade"},
+        "speed_two_upgrade": {"textures":"textures/items/beacons/upgrades/speed_two_upgrade"},
+        "strength_upgrade": {"textures":"textures/items/beacons/upgrades/strength_upgrade"},
+        "strength_two_upgrade": {"textures":"textures/items/beacons/upgrades/strength_two_upgrade"},
+        "regeneration_upgrade": {"textures":"textures/items/beacons/upgrades/regen_upgrade"},
+        "regeneration_two_upgrade": {"textures":"textures/items/beacons/upgrades/regen_two_upgrade"},
+        "jump_boost_upgrade": {"textures":"textures/items/beacons/upgrades/jump_boost_upgrade"},
+        "jump_boost_two_upgrade": {"textures":"textures/items/beacons/upgrades/jump_boost_two_upgrade"},
+        "haste_upgrade": {"textures":"textures/items/beacons/upgrades/haste_upgrade"},
+        "haste_two_upgrade": {"textures":"textures/items/beacons/upgrades/haste_two_upgrade"},
+        "resistance_upgrade": {"textures":"textures/items/beacons/upgrades/resistance_upgrade"},
+        "resistance_two_upgrade": {"textures":"textures/items/beacons/upgrades/resistance_two_upgrade"},
+        "speed_beacon": {
+            "textures": "textures/items/beacons/speed_beacon"
+        },
+        "speed_two_beacon": {
+            "textures": "textures/items/beacons/speed_two_beacon"
+        },
+        "strength_beacon": {
+            "textures": "textures/items/beacons/strength_beacon"
+        },
+        "strength_two_beacon": {
+            "textures": "textures/items/beacons/strength_two_beacon"
+        },
+        "regen_beacon": {
+            "textures": "textures/items/beacons/regen_beacon"
+        },
+        "regen_two_beacon": {
+            "textures": "textures/items/beacons/regen_two_beacon"
+        },
+        "jump_boost_beacon": {
+            "textures": "textures/items/beacons/jump_boost_beacon"
+        },
+        "jump_boost_two_beacon": {
+            "textures": "textures/items/beacons/jump_boost_two_beacon"
+        },
+        "haste_beacon": {
+            "textures": "textures/items/beacons/haste_beacon"
+        },
+        "haste_two_beacon": {
+            "textures": "textures/items/beacons/haste_two_beacon"
+        },
+        "resist_beacon": {
+            "textures": "textures/items/beacons/resistance_beacon"
+        },
+        "resist_two_beacon": {
+            "textures": "textures/items/beacons/resistance_two_beacon"
+        },
+        "launcher": {"textures":"textures/items/launcher"},
+        "super_launcher": {"textures":"textures/items/super_launcher"},
+        "dir_launcher": {"textures":"textures/items/dir_launcher"}
+    }
+}

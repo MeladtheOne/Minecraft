@@ -1,0 +1,29 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "melad:jump_boost_two_beacon"
+                },
+                {
+                    "type": "item",
+                    "name": "melad:speed_two_beacon"
+                },
+                {
+                    "type": "item",
+                    "name": "melad:regen_two_beacon"
+                },
+                {
+                    "type": "item",
+                    "name": "melad:resist_two_beacon"
+                },
+                {
+                    "type": "item",
+                    "name": "melad:strength_two_beacon"
+                }
+            ]
+        }
+    ]
+}
