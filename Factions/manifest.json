@@ -1,0 +1,18 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Factions",
+    "description": "Made by Melad for people who want to make factions. It makes teams.",
+    "uuid":"02bd92df-c346-461d-9ce0-5ed1568a063f",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules":
+    [
+      {
+        "type": "data",
+        "uuid": "1d1357e9-84c8-4b5a-b1e3-7e1c719f4de6",
+        "version": [1, 0, 0]
+      }
+    ]
+}
